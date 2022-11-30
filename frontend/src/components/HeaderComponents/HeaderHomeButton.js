@@ -1,4 +1,4 @@
-import './FeedHomeButton.css';
+import './HeaderHomeButton.css';
 
 function HeaderHomeButton(props) {
   return (

@@ -5,8 +5,8 @@ import './FeedGallery.css';
 function FeedGallery(props) {
   return (
     <div className="feed-gallery">
-      <FeedThumbnail {...props.src}/>
-      <FeedTitle {...props.title}/>
+      <FeedThumbnail src={props.src}/>
+      <FeedTitle title={props.title}/>
     </div>
   );
 }
