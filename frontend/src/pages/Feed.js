@@ -9,8 +9,8 @@ function Feed(props) {
 
   const getFeedPanelProps = () => {
     return {
-      srcTopLeft: "srcTopLeft.jpg",
-      titleTopLeft: "Top Left Gallery",
+      srcTopLeft: "../../static/im1.jpeg",
+      titleTopLeft: "Bolumbia Imagery",
       srcTopRight: "srcTopRight.jpg",
       titleTopRight: "Top Right Gallery",
       srcBottomLeft: "srcBottomLeft.jpg",
