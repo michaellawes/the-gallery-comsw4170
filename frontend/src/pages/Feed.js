@@ -12,7 +12,7 @@ function Feed(props) {
     <div className="Feed">
       <PageHeader src={getProfileIcon} />
       <FeedPanel srcTopLeft={oop} titleTopLeft="Top Left Gallery"
-      srcTopRight="srcTopRight.jpg"
+      srcTopRight={"srcTopRight.jpg"}
       titleTopRight="Top Right Gallery"
       srcBottomLeft="srcBottomLeft.jpg"
       titleBottomLeft="Bottom Left Gallery"
