@@ -1,4 +1,3 @@
-import PageHeader from "../components/HeaderComponents/PageHeader";
 import FeedPanel from "../components/FeedComponents/FeedPanel";
 import './Feed.css';
 import oop from '../static/oop.JPEG';
