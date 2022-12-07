@@ -1,0 +1,7 @@
+.feed-title {
+  color: #fff;
+  font-size: 1.4em;
+  position: absolute;
+  display: block;
+  z-index:100;
+}
