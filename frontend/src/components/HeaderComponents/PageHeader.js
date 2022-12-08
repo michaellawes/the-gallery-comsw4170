@@ -19,13 +19,19 @@ function PageHeader(props) {
           <HeaderTitle/>
         </div>
         <div className="container">
-          <HeaderNotificationBell />
+          <Link className="navbar-brand" to={'/notifications'}>
+            <HeaderNotificationBell />
+          </Link>
         </div>
         <div className="container">
-          <HeaderSearchIcon />
+          <Link className="navbar-brand" to={'/'}>
+            <HeaderSearchIcon />
+          </Link>
         </div>
         <div className="container">
-          <HeaderProfileIcon {...props.src}/>
+          <Link className="navbar-brand" to={'/profile'}>
+            <HeaderProfileIcon {...props.src}/>
+          </Link>
         </div>
       </nav>
     </div>
