@@ -1,4 +1,3 @@
-import PageHeader from "../components/HeaderComponents/PageHeader";
 import FeedPanel from "../components/FeedComponents/FeedPanel";
 import './Feed.css';
 import oop from '../static/oop.JPEG';
@@ -10,15 +9,10 @@ import image5 from '../static/image5.png';
 
 
 function Feed(props) {
-  const getProfileIcon = () => {
-    return props.profileIcon;
-  }
-
   return (
     <div className="Feed">
-      <PageHeader src={getProfileIcon} />
-      <FeedPanel srcTopLeft={image2} titleTopLeft="Top Left Gallery"
-      srcTopRight={image3}
+      <FeedPanel srcTopLeft={oop} titleTopLeft="Top Left Gallery"
+      srcTopRight={"srcTopRight.jpg"}
       titleTopRight="Top Right Gallery"
       srcBottomLeft={image4}
       titleBottomLeft="Bottom Left Gallery"
