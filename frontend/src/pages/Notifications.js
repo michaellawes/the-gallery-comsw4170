@@ -28,7 +28,6 @@ function Notifications(props) {
         artist=""
       />
      </div>
-     <Calendar/>
     </div>
   );
 }
