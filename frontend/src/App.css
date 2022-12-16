@@ -37,6 +37,23 @@
   }
 }
 
-.auth-wrapper {
+.body {
   position: relative;
+  top: 100px;
+  background-color: black;
+}
+
+html, body {
+  height: 100%;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  
+  /*overflow: hidden;*/
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }

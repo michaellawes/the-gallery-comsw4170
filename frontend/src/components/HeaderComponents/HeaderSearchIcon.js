@@ -1,9 +1,10 @@
 import './HeaderSearchIcon.css';
+import SearchIcon from '@mui/icons-material/Search';
 
 function HeaderSearchIcon() {
   return (
     <div className="header-search-icon">
-      <img src="" alt="Search Icon"></img>
+      <SearchIcon fontSize='100px' style={{ color: 'white'}}/>
     </div>
   );
 }

@@ -1,9 +1,10 @@
 import './HeaderProfileIcon.css';
+import PersonIcon from '@mui/icons-material/Person';
 
 function HeaderProfileIcon(props) {
   return (
     <div className="header-profile-icon">
-      <img src={props.src} alt="Profile Icon"></img>
+      <PersonIcon fontSize='100px' style={{ color: 'white'}}/>
     </div>
   );
 }

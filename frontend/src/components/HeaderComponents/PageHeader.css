@@ -1,5 +1,46 @@
 .page-header {
-  position: absolute;
-  top: 0;
-  left: 0;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 320px;
+    width: 100%;
+    max-width: 100%;
+    padding: 25px 0px 25px 0px;
+}
+
+.page-header-title {
+    background-color: black;
+    width: 700px;
+    max-width: 100%;
+    padding-left: 150px;
+    height: auto;
+    flex: 1;
+}
+
+.page-header-icon {
+    background-color: black;
+    width: 10px;
+    max-width: 100%;
+    height: auto;
+    font-size: 45px;
+    flex: .1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: block;
+    line-height: 1em; /* a */
+    max-height: 2em;
+}
+
+.page-header-title span {
+    color: white;
+    font-size: 45px;
+    text-align: center;
 }

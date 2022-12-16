@@ -1,9 +1,10 @@
 import './HeaderHomeButton.css';
+import HomeIcon from '@mui/icons-material/Home';
 
 function HeaderHomeButton(props) {
   return (
     <div className="header-home-button">
-      <img src={props.src} alt="Home Button"></img>
+      <HomeIcon fontSize='100px' style={{ color: 'white'}}/>
     </div>
   );
 }
