@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="App">
         <PageHeader/>
-        <div className="auth-wrapper">
+        <div className="body">
           <Routes>
             <Route exact path="/" element={<Feed />} />
             <Route path="/sign-in" element={<Login />} />

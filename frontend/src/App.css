@@ -37,6 +37,12 @@
   }
 }
 
-.auth-wrapper {
+.body {
   position: relative;
+  top: 100px;
+  background-color: black;
+}
+
+html, body {
+  height: 100%;
 }

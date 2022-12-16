@@ -1,3 +1,37 @@
-.feed-thumbnail {
-  position: relative;
+.feed-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 320px;
+  max-width: 2400px;
+  padding: 25px 25px 25px 25px;
+}
+.feed-item {
+  height: 600px;
+  width: 1500px;
+  background-color: black;
+  border: 4px solid rgb(255, 215, 0);
+  margin: 3px;
+  max-width: 100%;
+  flex: 2;
+}
+
+.feed-item img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+.feed-item2 {
+  flex: 1;
+  width: 300px;
+  height: auto;
+}
+
+.feed-item2 span {
+  color: white;
+  font-size: 120px;
+  text-align: left;
 }
