@@ -5,7 +5,7 @@
   justify-content: center;
   flex-wrap: wrap;
   min-width: 320px;
-  max-width: 2400px;
+  max-width: 100%;
   padding: 25px 25px 25px 25px;
 }
 .feed-item {
@@ -33,5 +33,23 @@
 .feed-item2 span {
   color: white;
   font-size: 120px;
+  font-family: 'Literata', serif;
+  float: left;
   text-align: left;
+  margin-left: 20px;
+}
+
+.feed-item3 {
+  flex: 1;
+  width: 300px;
+  height: auto;
+}
+
+.feed-item3 span {
+  color: white;
+  font-size: 120px;
+  font-family: 'Literata', serif;
+  float: right;
+  text-align: right;
+  margin-right: 20px;
 }

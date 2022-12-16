@@ -1,9 +1,10 @@
 import './HeaderNotificationBell.css';
+import NotificationsIcon from '@mui/icons-material/Notifications';
 
 function HeaderNotificationBell(props) {
   return (
     <div className="header-notification-bell">
-      <img src="" alt="Notification Bell"></img>
+      <NotificationsIcon fontSize='100px' style={{ color: 'white'}}/>
     </div>
   );
 }
