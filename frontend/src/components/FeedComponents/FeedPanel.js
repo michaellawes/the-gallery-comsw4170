@@ -1,5 +1,6 @@
 import FeedGallery from "./FeedGallery";
 import './FeedPanel.css';
+import React from 'react';
 
 function FeedPanel(props) {
   return (

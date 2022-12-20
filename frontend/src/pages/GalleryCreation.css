@@ -1,0 +1,43 @@
+.text-area {
+    color: white;
+    font-family: 'Literata';
+    border: 3px;
+    outline: none;
+
+}
+
+.gallery-name {
+    font-size: large;
+}
+
+.GalleryCreation {
+    background-color: black;
+}
+
+.center{
+    inline-size: 450px;
+    height: 300px;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    right:20px;
+  }
+
+  .button-1{
+    background-color: red;
+    float: left;
+    inline-size: 100px;
+    height: 30px;
+    color: white;
+    margin:auto;
+
+  }
+
+
+  .button-2{
+    background-color: white;
+    inline-size: 100px;
+    height: 30px;
+  }
+
+

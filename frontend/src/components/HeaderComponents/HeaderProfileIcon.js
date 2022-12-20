@@ -1,4 +1,5 @@
 import './HeaderProfileIcon.css';
+import React from 'react';
 
 function HeaderProfileIcon(props) {
   return (

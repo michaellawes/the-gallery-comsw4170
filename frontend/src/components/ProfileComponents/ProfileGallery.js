@@ -1,4 +1,5 @@
 import './ProfileGallery.css';
+import React from 'react';
 
 function ProfileGallery(props) {
   return (

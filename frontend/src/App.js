@@ -7,6 +7,7 @@ import Login from './pages/Login.js';
 import Profile from './pages/Profile';
 import Notifications from './pages/Notifications';
 import PageHeader from './components/HeaderComponents/PageHeader.js'
+import GallleryCreation from './pages/GalleryCreation'
 function App() {
   return (
     <Router>
@@ -14,10 +15,11 @@ function App() {
         <PageHeader/>
         <div className="auth-wrapper">
           <Routes>
-            <Route exact path="/" element={<Feed />} />
+            <Route exact path="/" element={<Feed/>} />
             <Route path="/sign-in" element={<Login />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/notifications" element={<Notifications />} />
+            <Route path="/gallery-creation" element={<GallleryCreation />} />
           </Routes>
         </div>
       </div>

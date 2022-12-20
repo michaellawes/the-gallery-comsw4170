@@ -1,6 +1,7 @@
 import FeedThumbnail from "./FeedThumbnail";
 import FeedTitle from "./FeedTitle";
 import './FeedGallery.css';
+import React from 'react';
 
 function FeedGallery(props) {
   return (

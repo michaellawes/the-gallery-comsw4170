@@ -1,4 +1,5 @@
 import './HeaderTitle.css';
+import React from 'react';
 
 function HeaderTitle(props) {
   return (

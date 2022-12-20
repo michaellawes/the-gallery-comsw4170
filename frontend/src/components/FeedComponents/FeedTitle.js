@@ -1,4 +1,5 @@
 import './FeedTitle.css';
+import React from 'react';
 
 function FeedTitle(props) {
   return (

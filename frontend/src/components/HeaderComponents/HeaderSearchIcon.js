@@ -1,4 +1,5 @@
 import './HeaderSearchIcon.css';
+import React from 'react';
 
 function HeaderSearchIcon() {
   return (

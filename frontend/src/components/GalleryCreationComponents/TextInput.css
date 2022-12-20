@@ -1,0 +1,45 @@
+.text-area {
+    color: white;
+    font-family: 'Literata';
+    border: none;
+    outline: none;
+    background-color: black;
+    margin: auto;
+    display: inline-block;
+    flex-basis: 50%;
+}
+
+.gallery-name {
+    font-size: 25px;
+  padding-top: 100px;
+  padding-bottom: 25px;
+    
+}
+
+.piece-name {
+    font-size: 30px;
+    width: 50%;
+    margin: auto;
+   
+}
+
+.year {
+    font-size: 25px;
+    width: 50%;
+    margin: auto;
+    
+}
+
+.medium-used {
+    font-size: 15px;
+    width: 50%;
+    margin: auto;
+   
+}
+
+.size {
+    font-size: small;
+    width: 50%;
+    margin: auto;
+   
+}

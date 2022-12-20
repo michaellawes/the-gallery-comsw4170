@@ -1,5 +1,6 @@
 import './Notifications.css';
 import Notification from '../components/NotificationsComponents/Notification';
+import React from 'react';
 
 function Notifications(props) {
   return (

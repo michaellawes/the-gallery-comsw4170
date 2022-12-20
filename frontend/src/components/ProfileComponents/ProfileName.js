@@ -1,4 +1,5 @@
 import './ProfileName.css';
+import React from 'react';
 
 function ProfileName(props) {
   return (

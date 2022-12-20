@@ -1,4 +1,5 @@
 import './HeaderNotificationBell.css';
+import React from 'react';
 
 function HeaderNotificationBell(props) {
   return (
