@@ -1,9 +1,6 @@
 import './HeaderHomeButton.css';
-<<<<<<< HEAD
 import React from 'react';
-=======
 import HomeIcon from '@mui/icons-material/Home';
->>>>>>> main
 
 function HeaderHomeButton(props) {
   return (

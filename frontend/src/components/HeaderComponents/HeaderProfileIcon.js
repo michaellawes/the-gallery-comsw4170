@@ -1,9 +1,6 @@
 import './HeaderProfileIcon.css';
-<<<<<<< HEAD
 import React from 'react';
-=======
 import PersonIcon from '@mui/icons-material/Person';
->>>>>>> main
 
 function HeaderProfileIcon(props) {
   return (

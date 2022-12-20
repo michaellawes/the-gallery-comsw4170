@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-import './FeedPanel.css';
-import React from 'react';
-=======
 import './FeedThumbnail.css';
->>>>>>> main
 
 function FeedThumbnail(props) {
   return (

@@ -1,9 +1,6 @@
 import './HeaderNotificationBell.css';
-<<<<<<< HEAD
 import React from 'react';
-=======
 import NotificationsIcon from '@mui/icons-material/Notifications';
->>>>>>> main
 
 function HeaderNotificationBell(props) {
   return (
