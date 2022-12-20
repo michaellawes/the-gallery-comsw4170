@@ -1,0 +1,64 @@
+.blue {
+  border-left: 10px;
+  color: blue;
+}
+
+.red {
+  border-left: 10px;
+  color: red;
+}
+
+.green {
+  border-left: 10px;
+  color: green;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 320px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.inner-icon {
+  flex: .1;
+}
+
+.inner-text {
+  flex: 2;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 320px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.text-item {
+  flex: 1;
+  color: white;
+}
+
+.title {
+  font-family: 'Literata', serif;
+  font-size: 50px;
+}
+
+.description {
+  font-family: 'Literata', serif;
+  font-size: 35px;
+}
+
+.artist {
+  width: 100%;
+  max-width: 100%;
+}
