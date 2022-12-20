@@ -10,35 +10,35 @@
 }
 
 .gallery-name {
-    font-size: 25px;
+    font-size: 30px;
   padding-top: 100px;
   padding-bottom: 25px;
     
 }
 
 .piece-name {
-    font-size: 30px;
+    font-size: 35px;
     width: 50%;
     margin: auto;
    
 }
 
 .year {
-    font-size: 25px;
+    font-size: 30px;
     width: 50%;
     margin: auto;
     
 }
 
 .medium-used {
-    font-size: 15px;
+    font-size: 20px;
     width: 50%;
     margin: auto;
    
 }
 
 .size {
-    font-size: small;
+    font-size: 15px;
     width: 50%;
     margin: auto;
    

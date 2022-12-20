@@ -10,17 +10,34 @@
     font-size: large;
 }
 
-.GalleryCreation {
+.gallery-container {
     background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 320px;
+    max-width: 100%;
+}
+
+.gallery-item {
+    flex: 1;
+}
+
+.gallery-item img {
+    flex: 1;
 }
 
 .center{
     inline-size: 450px;
-    height: 300px;
+    height: 550px;
+    width: 700px;
     margin: auto;
     padding: 50px;
     display: flex;
     right:20px;
+    float:left; 
   }
 
   .button-1{
@@ -30,6 +47,7 @@
     height: 30px;
     color: white;
     margin:auto;
+    border: red;
 
   }
 
@@ -38,6 +56,36 @@
     background-color: white;
     inline-size: 100px;
     height: 30px;
+    border: white;
   }
 
+  .gallery-creation {
+    height: 100%;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+    background-color: black;
+    padding-bottom: 10px;
+  }
 
+  .add-icon {
+    font-size: 200px;
+}
+
+.button-container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 320px;
+    max-width: 100%;
+}
+
+.button-item {
+    flex: 1.5;
+}
+
+.button-item2 {
+    flex: .1;
+}
