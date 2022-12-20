@@ -37,7 +37,7 @@ Due to time constraints again, we focused on representing the core pages as clos
 
 ### Missing Features
 
-1. Search bar: Would allow users to search for both users, galleries and art pieces.
+1. Search bar: Would allow users to search for users, galleries and art pieces.
 2. Gallery creation from likes: Similar to the gallery upload page except liked art pieces would be selectable.
 3. Premiering events: Additional feature when creating a gallery with other users to premiere a gallery release as an internal event on the platform at a later date.
 4. Notifications calendar: More interaction would be available in the form of users clicking dates on the calendar to see all corresponding events in the Notifications page.
