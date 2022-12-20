@@ -1,0 +1,65 @@
+.blue {
+  border-left: solid 10px;
+  border-color: blue;
+}
+
+.red {
+  border-left: solid 10px;
+  border-color: red;
+}
+
+.green {
+  border-left: solid 10px;
+  border-color: green;
+}
+
+.notification-slot {
+  width: 60%;
+  margin-left: 20%;
+  height: 400px;
+}
+
+.ncon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 320px;
+  max-width: 100%;
+  height: 200px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.ncon-item-icon {
+  flex: 1;
+  width: 100px;
+  font-size: 120px;
+}
+
+.ncon-item-text {
+  flex: 3;
+  width: 300px;
+  font-family: 'Literata', serif;
+  padding-bottom: 10px;
+}
+
+.ncon-item-profile {
+  margin: 3px;
+  max-width: 100%;
+  flex: 1;
+}
+
+.ncon-item-profile img {
+  height: 100px;
+  width: 120px;
+}
+
+.tcon-item-title {
+  font-size: 40px;
+}
+
+.tcon-item-desc {
+  font-size: 30px;
+}
