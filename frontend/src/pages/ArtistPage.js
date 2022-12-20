@@ -4,7 +4,19 @@ import ProfileIcon from '../components/ProfileComponents/ProfileIcon';
 import ProfileName from '../components/ProfileComponents/ProfileName';
 import ArrowBackIosRoundedIcon from '@mui/icons-material/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@mui/icons-material/ArrowForwardIosRounded';
+import events_image from '../static/events_image.png';
+import favorite_image1 from '../static/favorite_image1.png';
+import favorite_image2 from '../static/favorite_image2.png';
+import favorite_image3 from '../static/favorite_image3.png';
+import gallery_image1 from '../static/gallery_image1.png';
+import gallery_image2 from '../static/gallery_image2.png';
+import gallery_image3 from '../static/gallery_image3.png';
+import like_image1 from '../static/like_image1.png';
+import like_image2 from '../static/like_image2.png';
+import like_image3 from '../static/like_image3.png';
+import profile_icon from '../static/profile_icon.png';
 import './ArtistPage.css';
+
 
 function ArtistPage(props) {
   return (
@@ -13,58 +25,76 @@ function ArtistPage(props) {
         <div className='header vertical-item1'>
           <div className='info-container'>
             <div className='info-icon'>
-              <ProfileIcon/>
+              <img src={profile_icon} alt="image for profile" class="profile-image"></img>
             </div>
             <div className='info-name'>
-              <ProfileName name={"Delilah"}/>
+              <ProfileName name={"Brain"}/>
             </div>
             <div className='info-bio'>
-              <ProfileBio bio={"Hello everyone I'm an upcoming artist who wants to explore the features of the gallery in their full form!"}/>
+              <ProfileBio bio={"I am an awesome professor of User Design/UX. Loved by my students, feared by my enemies. I love photography and Norwegian tap-dance."}/>
             </div>
           </div>
         </div>
-        <div className='section-container vertical-item'>
-          <div className='section-item'>
-            sadfasd
+        <div className='section-container vertical-item galleries'>
+        <div className='title2'>
+              <span> galleries. </span>
           </div>
           <div className='section-item'>
-            adfasd
+          <img src={gallery_image1} alt="image for galleries" class="gallery-image"></img>
           </div>
           <div className='section-item'>
-            adfasd
+          <img src={gallery_image2} alt="image for galleries" class="gallery-image"></img>
+          </div>
+          <div className='section-item'>
+          <img src={gallery_image3} alt="image for galleries" class="gallery-image"></img>
           </div>
         </div>
         <div className='section-container vertical-item events'>
+        <div className='title'>
+              <span> events. </span>
+          </div>
           <div className='section-item arrow-icon'>
             <ArrowBackIosRoundedIcon />
           </div>
           <div className='section-item'>
-            adfasdf
+          <img src={events_image} alt="image for events" class="event-image"></img>
           </div>
           <div className='section-item arrow-icon'>
             <ArrowForwardIosRoundedIcon />
           </div>
         </div>
-        <div className='section-container vertical-item'>
-          <div className='section-item'>
-            adfasd
+        <div className='section-container vertical-item favorites'>
+        <div className='title2'>
+              <span> favorites. </span>
           </div>
           <div className='section-item'>
-            adfasd
+          <img src={favorite_image1} alt="image for favorite artist 1" class="favorite-image"></img>
           </div>
           <div className='section-item'>
-            adfasdf
+          <img src={favorite_image2} alt="image for favorite artist 2" class="favorite-image"></img>
+          </div>
+          <div className='section-item'>
+          <img src={favorite_image3} alt="image for favorite artist 3" class="favorite-image"></img>
           </div>
         </div>
-        <div className='section-container vertical-item'>
-          <div className='section-item'>
-            adfafs
+        <div className='section-container vertical-item likes'>
+           <div className='title'>
+              <span> likes. </span>
+          </div>
+          <div className='section-item arrow-icon'>
+            <ArrowBackIosRoundedIcon />
           </div>
           <div className='section-item'>
-            adfasd
+              <img src={like_image1} alt="likes" class="like-image"></img>
           </div>
           <div className='section-item'>
-            adfasdf
+              <img src={like_image2} alt="likes" class="like-image"></img>
+          </div>
+          <div className='section-item'>
+             <img src={like_image3} alt="likes" class="like-image"></img>
+          </div>
+          <div className='section-item arrow-icon'>
+            <ArrowForwardIosRoundedIcon />
           </div>
         </div>
       </div>
