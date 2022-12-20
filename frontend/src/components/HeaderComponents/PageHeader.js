@@ -8,6 +8,7 @@ import React from 'react';
 import './PageHeader.css';
       
 function PageHeader(props) {
+  const fakeData = [{'title': 'The Gallery'}]
   return (
     <div className="page-header">
       <div className="page-header-icon">
@@ -24,9 +25,7 @@ function PageHeader(props) {
         </Link>
       </div>
       <div className="page-header-icon">
-        <Link to={'/'}>
-          <HeaderSearchIcon />
-        </Link>
+        <HeaderSearchIcon placeholder="" data={fakeData} />
       </div>
       <div className="page-header-icon">
         <Link to={'/profile'}>
