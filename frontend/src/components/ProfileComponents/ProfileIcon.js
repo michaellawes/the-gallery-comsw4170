@@ -1,4 +1,5 @@
 import './ProfileIcon.css';
+import React from 'react';
 
 function ProfileIcon(props) {
   return (

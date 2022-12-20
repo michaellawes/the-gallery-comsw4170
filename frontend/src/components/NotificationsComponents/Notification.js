@@ -2,6 +2,7 @@ import './Notification.css';
 import MapIcon from "@mui/icons-material/Map";
 import ComputerIcon from '@mui/icons-material/Computer';
 import ColorLensIcon from "@mui/icons-material/ColorLens";
+import React from 'react';
 
 function Notification(props) {
   return (

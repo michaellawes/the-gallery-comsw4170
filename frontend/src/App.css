@@ -40,14 +40,24 @@
 .body {
   position: relative;
   top: 100px;
+  height: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  
   background-color: black;
+  flex-grow: 1;
 }
 
 html, body {
   height: 100%;
+  display: flex;
+  flex-direction: column;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  
   /*overflow: hidden;*/
+}
+
+body > * {
+  flex-shrink: 0;
 }
 
 html::-webkit-scrollbar {

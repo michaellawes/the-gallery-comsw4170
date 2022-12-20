@@ -1,6 +1,7 @@
 import FeedThumbnail from "./FeedThumbnail";
 import { Link } from 'react-router-dom'
 import './FeedGallery.css';
+import React from 'react';
 
 function FeedGallery(props) {
   return (

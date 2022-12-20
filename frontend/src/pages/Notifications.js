@@ -1,6 +1,7 @@
 import "./Notifications.css";
 import Notification from "../components/NotificationsComponents/Notification";
 import cal from "../static/cal.png";
+import React from 'react';
 
 function Notifications() {
   return (

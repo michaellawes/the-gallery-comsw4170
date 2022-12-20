@@ -1,5 +1,6 @@
 import Calendar from '../NotificationsComponents/Calendar';
 import './Events.css';
+import React from 'react';
 
 function Events(props) {
   return (
