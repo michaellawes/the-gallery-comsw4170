@@ -1,4 +1,5 @@
 import './Empty.css';
+import React from "react";
 
 function Empty(props) {
   return (
