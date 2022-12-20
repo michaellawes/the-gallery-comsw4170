@@ -27,7 +27,7 @@ function GalleryCreation(props) {
           <AddIcon style={{ color: 'white'}}/>
         </div>
         <div className='button-item2'>
-        < button className="button-2" placeholder="artist name">artist name</button>
+        <button className="button-2" placeholder="artist name">artist name</button>
         </div>
       </div>
       

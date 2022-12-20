@@ -4,7 +4,6 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Feed from './pages/Feed.js';
 import Login from './pages/Login.js';
-import Profile from './pages/Profile';
 import ArtistPage from './pages/ArtistPage';
 import Notifications from './pages/Notifications';
 import PageHeader from './components/HeaderComponents/PageHeader.js'

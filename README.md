@@ -23,6 +23,8 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 ## Features
 
+For our project we focused on implementing the core features of the platform as closely to our figma mockup as possible. Most of which are showcased in the presentation video. Here are the relevant ones.
+
 ### Core Features
 
 1. Feed 
@@ -32,7 +34,7 @@ You may also see any lint errors in the console.
 5. Gallery Creation
 6. Sign Up Page
 
-Due to time constraints again, we focused on representing the core pages as closely to our figma mockup as possible. We unforuntately did not have time to implement all the features, however, given more time we would include these in our website:
+We unforuntately did not have time to implement all the features, however, given more time we would include these in our website:
 
 ### Missing Features
 
@@ -44,7 +46,10 @@ Due to time constraints again, we focused on representing the core pages as clos
 
 ## Credit
 
-Due to time constraints on completing the website implementation we used Material-UI Icons for the icons inside the application.
+Due to time constraints on completing the website implementation, we used Material-UI Icons for the icons inside the application and MDB React UI Kit for the sign-up page functionality. Given more time we would have developed this pages ourselves
 
 Material UI Documentation can be found here:
 https://mui.com/material-ui/getting-started/overview/
+
+MDB React UI Kit Documentation can be found here:
+https://mdbootstrap.com/docs/
