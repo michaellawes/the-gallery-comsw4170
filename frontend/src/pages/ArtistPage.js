@@ -15,6 +15,7 @@ import like_image3 from '../static/like_image3.png';
 import profile_icon from '../static/profile_icon.png';
 import { Link } from "react-router-dom";
 import './ArtistPage.css';
+import React from "react";
 
 
 function ArtistPage(props) {

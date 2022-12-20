@@ -2,6 +2,7 @@ import './Feed.css';
 import oop from '../static/oop.jpg';
 import coop from '../static/coop.jpg';
 import FeedGallery from '../components/FeedComponents/FeedGallery';
+import React from "react";
 
 function Feed(props) {
   return (

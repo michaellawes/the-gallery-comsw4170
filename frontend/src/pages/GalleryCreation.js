@@ -2,6 +2,7 @@ import './GalleryCreation.css';
 import image_dropin from '../static/image_dropin.png';
 import AddIcon from '@mui/icons-material/Add';
 import TextInput from "../components/GalleryCreationComponents/TextInput.js"
+import React from "react";
 
 function GalleryCreation(props) {
   return (

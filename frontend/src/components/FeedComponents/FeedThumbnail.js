@@ -1,4 +1,5 @@
 import './FeedThumbnail.css';
+import React from "react";
 
 function FeedThumbnail(props) {
   return (
