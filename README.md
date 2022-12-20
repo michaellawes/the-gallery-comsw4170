@@ -21,6 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+## Features
 
 ### Core Features
 
@@ -30,8 +31,6 @@ You may also see any lint errors in the console.
 4. Notifications
 5. Gallery Creation
 6. Sign Up Page
-
-## Features
 
 Due to time constraints again, we focused on representing the core pages as closely to our figma mockup as possible. We unforuntately did not have time to implement all the features, however, given more time we would include these in our website:
 
