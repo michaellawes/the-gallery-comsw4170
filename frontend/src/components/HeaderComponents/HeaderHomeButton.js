@@ -1,10 +1,14 @@
 import './HeaderHomeButton.css';
+<<<<<<< HEAD
 import React from 'react';
+=======
+import HomeIcon from '@mui/icons-material/Home';
+>>>>>>> main
 
 function HeaderHomeButton(props) {
   return (
     <div className="header-home-button">
-      <img src={props.src} alt="Home Button"></img>
+      <HomeIcon fontSize='100px' style={{ color: 'white'}}/>
     </div>
   );
 }

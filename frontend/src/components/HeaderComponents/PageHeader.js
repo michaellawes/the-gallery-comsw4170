@@ -10,31 +10,29 @@ import './PageHeader.css';
 function PageHeader(props) {
   return (
     <div className="page-header">
-      <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-        <div className="container">
-          <Link className="navbar-brand" to={'/'}>
-            <HeaderHomeButton/>
-          </Link>
-        </div>
-        <div className="container">
-          <HeaderTitle/>
-        </div>
-        <div className="container">
-          <Link className="navbar-brand" to={'/notifications'}>
-            <HeaderNotificationBell />
-          </Link>
-        </div>
-        <div className="container">
-          <Link className="navbar-brand" to={'/'}>
-            <HeaderSearchIcon />
-          </Link>
-        </div>
-        <div className="container">
-          <Link className="navbar-brand" to={'/profile'}>
-            <HeaderProfileIcon {...props.src}/>
-          </Link>
-        </div>
-      </nav>
+      <div className="page-header-icon">
+        <Link to={'/'}>
+          <HeaderHomeButton/>
+        </Link>
+      </div>
+      <div className="page-header-title">
+        <HeaderTitle/>
+      </div>
+      <div className="page-header-icon">
+        <Link className="navbar-brand" to={'/notifications'}>
+          <HeaderNotificationBell />
+        </Link>
+      </div>
+      <div className="page-header-icon">
+        <Link to={'/'}>
+          <HeaderSearchIcon />
+        </Link>
+      </div>
+      <div className="page-header-icon">
+        <Link to={'/profile'}>
+          <HeaderProfileIcon {...props.src}/>
+        </Link>
+      </div>
     </div>
   );
 }
