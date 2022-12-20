@@ -1,6 +1,4 @@
 import ProfileBio from '../components/ProfileComponents/ProfileBio';
-import ProfileGallery from '../components/ProfileComponents/ProfileGallery';
-import ProfileIcon from '../components/ProfileComponents/ProfileIcon';
 import ProfileName from '../components/ProfileComponents/ProfileName';
 import ArrowBackIosRoundedIcon from '@mui/icons-material/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@mui/icons-material/ArrowForwardIosRounded';
@@ -25,7 +23,7 @@ function ArtistPage(props) {
         <div className='header vertical-item1'>
           <div className='info-container'>
             <div className='info-icon'>
-              <img src={profile_icon} alt="image for profile" class="profile-image"></img>
+              <img src={profile_icon} alt="profile" class="profile-image"></img>
             </div>
             <div className='info-name'>
               <ProfileName name={"Brain"}/>
@@ -40,13 +38,13 @@ function ArtistPage(props) {
               <span> galleries. </span>
           </div>
           <div className='section-item'>
-          <img src={gallery_image1} alt="image for galleries" class="gallery-image"></img>
+          <img src={gallery_image1} alt="galleries" class="gallery-image"></img>
           </div>
           <div className='section-item'>
-          <img src={gallery_image2} alt="image for galleries" class="gallery-image"></img>
+          <img src={gallery_image2} alt="galleries" class="gallery-image"></img>
           </div>
           <div className='section-item'>
-          <img src={gallery_image3} alt="image for galleries" class="gallery-image"></img>
+          <img src={gallery_image3} alt="galleries" class="gallery-image"></img>
           </div>
         </div>
         <div className='section-container vertical-item events'>
@@ -57,7 +55,7 @@ function ArtistPage(props) {
             <ArrowBackIosRoundedIcon />
           </div>
           <div className='section-item'>
-          <img src={events_image} alt="image for events" class="event-image"></img>
+          <img src={events_image} alt="events" class="event-image"></img>
           </div>
           <div className='section-item arrow-icon'>
             <ArrowForwardIosRoundedIcon />
@@ -68,13 +66,13 @@ function ArtistPage(props) {
               <span> favorites. </span>
           </div>
           <div className='section-item'>
-          <img src={favorite_image1} alt="image for favorite artist 1" class="favorite-image"></img>
+          <img src={favorite_image1} alt="favorite artist 1" class="favorite-image"></img>
           </div>
           <div className='section-item'>
-          <img src={favorite_image2} alt="image for favorite artist 2" class="favorite-image"></img>
+          <img src={favorite_image2} alt="favorite artist 2" class="favorite-image"></img>
           </div>
           <div className='section-item'>
-          <img src={favorite_image3} alt="image for favorite artist 3" class="favorite-image"></img>
+          <img src={favorite_image3} alt="favorite artist 3" class="favorite-image"></img>
           </div>
         </div>
         <div className='section-container vertical-item likes'>
