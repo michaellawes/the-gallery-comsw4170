@@ -1,0 +1,25 @@
+.color-format {
+    color: white;
+}
+
+
+
+.signin-preview{
+    inline-size: 400px;
+}
+
+.flex-item{
+    flex: .70;
+}
+
+.flex-container{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 320px;
+    max-width: 100%;
+    
+}
