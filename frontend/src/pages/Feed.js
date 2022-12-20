@@ -9,6 +9,8 @@ function Feed(props) {
       <FeedGallery src={oop} title={"Some Where Out There"} isLeft={true} link={"/gallery1"}/>
       <FeedGallery src={coop} title={"116th Street Vibes"} isLeft={false} link={"/gallery2"}/>
     </div>
+
+    
   );
 }
 

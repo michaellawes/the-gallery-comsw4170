@@ -1,4 +1,5 @@
 import './ProfileBio.css';
+import React from 'react';
 
 function ProfileBio(props) {
   return (

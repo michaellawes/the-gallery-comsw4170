@@ -5,6 +5,7 @@ import ProfileName from '../components/ProfileComponents/ProfileName';
 import Artwork from '../components/ProfileComponents/Artwork';
 import Events from '../components/ProfileComponents/Events';
 import Settings from '../components/ProfileComponents/Settings';
+import React from 'react';
 
 function Profile(props) {
   return (

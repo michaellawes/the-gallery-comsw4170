@@ -1,4 +1,5 @@
 import './Array.css';
+import React from 'react';
 
 function Array(props) {
   return (

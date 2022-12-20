@@ -4,6 +4,7 @@ import HeaderSearchIcon from "./HeaderSearchIcon";
 import HeaderHomeButton from "./HeaderHomeButton";
 import HeaderTitle from "./HeaderTitle";
 import { Link } from 'react-router-dom'
+import React from 'react';
 import './PageHeader.css';
       
 function PageHeader(props) {
